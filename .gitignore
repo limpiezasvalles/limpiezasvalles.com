@@ -1,0 +1,29 @@
+# === DOCUMENTACIÓN INTERNA (no subir al repo público) ===
+GUIA_PUBLICACION.md
+SEO_AUDITORIA.md
+
+# === CARPETA MEDIA (fotos sin procesar + archivos ajenos) ===
+media/
+
+# === IMÁGENES SIN USAR / DESCARTADAS ===
+images/aspirado.jpg
+images/untitled.png
+images/cristal 2.png
+images/140293706.jpg
+images/IMG_9165.jpg
+images/IMG_9204.jpg
+images/IMG_9205.jpg
+images/IMG_0267.jpg
+images/IMG_0269.jpg
+images/9217a48e-5637-4653-8a90-559ad0c4dbb4.JPG
+images/IMG_9209.jpg
+images/fondo-web-original.jpg
+images/hero-web-original.jpg
+images/servicio-web-original.jpg
+"images/4 limpieza cristales altura.jpg"
+"images/5 limpieza cristales altura.jpg"
+
+# === SISTEMA ===
+.DS_Store
+Thumbs.db
+*.log
