@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:limpiezasvalles.com)",
+      "Bash(curl -sL \"https://limpiezasvalles.com/wp-content/uploads/2024/07/logo1.png\" -o assets/logo-original.png)",
+      "Bash(curl -sL \"https://limpiezasvalles.com/wp-content/uploads/2024/08/3b7dc71e0e1bd8932889c78380fd33b7a34e5a5b.jpg\" -o images/hero-web-original.jpg)",
+      "Bash(curl -sL \"https://limpiezasvalles.com/wp-content/uploads/2024/08/c3f72359593b46c354502817ce4d714cbe90f790.jpg\" -o images/fondo-web-original.jpg)",
+      "Bash(curl -sL \"https://limpiezasvalles.com/wp-content/uploads/2024/07/clay-banks-cEzMOp5FtV4-unsplash-683x1024.jpg\" -o images/servicio-web-original.jpg)",
+      "Bash(python3 -)",
+      "Bash(grep -n \"innerHTML\" /home/hector/vs_web/js/*.js)",
+      "Bash(grep -n \"eval\\(\\\\|new Function\\(\" /home/hector/vs_web/js/*.js)",
+      "Bash(grep -n '<script src\\\\|<script type' /home/hector/vs_web/*.html)",
+      "Bash(grep -n 'target=\"_blank\"' /home/hector/vs_web/*.html)",
+      "Read(//home/hector/vs_web/**)",
+      "Bash(grep -n \"document.write\" /home/hector/vs_web/js/*.js)",
+      "Bash(grep -n \"btn--blue\\\\|tag--blue\" /home/hector/vs_web/*.html)",
+      "Bash(ls /home/hector/vs_web/*.html)",
+      "Bash(ls /home/hector/vs_web/*.ico /home/hector/vs_web/*.png)",
+      "Bash(curl -sL \"https://limpiezasvalles.com/favicon.ico\" -o /home/hector/vs_web/assets/favicon.ico --max-time 10 -w \"%{http_code}\")",
+      "Bash(curl -sI \"https://limpiezasvalles.com\" --max-time 10)",
+      "Bash(curl -sL \"https://limpiezasvalles.com\" --max-time 15)",
+      "Bash(curl -sL \"https://limpiezasvalles.com/wp-content/uploads/2024/07/logo-150x150.jpg\" -o /home/hector/vs_web/assets/favicon-src.jpg --max-time 10)",
+      "Bash(convert --version)",
+      "Bash(convert /home/hector/vs_web/assets/favicon-src.jpg -resize 32x32 /home/hector/vs_web/assets/favicon-32.png)",
+      "Bash(convert /home/hector/vs_web/assets/favicon-src.jpg -resize 180x180 /home/hector/vs_web/assets/apple-touch-icon.png)",
+      "Bash(convert /home/hector/vs_web/assets/favicon-32.png /home/hector/vs_web/favicon.ico)",
+      "Bash(sort -k5 -h)",
+      "Bash(ls /home/hector/vs_web/images/terraza* /home/hector/vs_web/images/portal* /home/hector/vs_web/images/parking-* /home/hector/vs_web/images/cristales-plataforma* /home/hector/vs_web/images/cristales-altura* /home/hector/vs_web/images/limpieza-zonas*)"
+    ]
+  }
+}

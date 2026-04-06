@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 56" fill="none" role="img" aria-label="Limpiezas Valles Solutions - Logo">
+  <!-- House/building icon -->
+  <g transform="translate(0, 4)">
+    <path d="M24 8L8 20v20h12V28h8v12h12V20L24 8z" fill="#1b3a5f"/>
+    <path d="M24 8L6 22" stroke="#2563eb" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M24 8L42 22" stroke="#2563eb" stroke-width="2.5" stroke-linecap="round"/>
+    <rect x="18" y="28" width="12" height="12" rx="1" fill="#2563eb" opacity="0.3"/>
+    <rect x="19" y="29" width="10" height="10" rx="1" fill="none" stroke="#2563eb" stroke-width="1.5"/>
+  </g>
+  <!-- VS text -->
+  <text x="50" y="38" font-family="'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif" font-weight="800" font-size="28" fill="#1b3a5f" letter-spacing="-0.5">VS</text>
+  <!-- Separator line -->
+  <line x1="88" y1="12" x2="88" y2="44" stroke="#e2e8f0" stroke-width="1.5"/>
+  <!-- Company name stacked -->
+  <text x="96" y="25" font-family="'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif" font-weight="700" font-size="11" fill="#1b3a5f" letter-spacing="0.3">LIMPIEZAS VALLES</text>
+  <text x="96" y="40" font-family="'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif" font-weight="400" font-size="9" fill="#64748b" letter-spacing="1.5">SOLUTIONS</text>
+</svg>

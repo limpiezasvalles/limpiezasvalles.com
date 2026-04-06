@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# No indexar política de privacidad
+Disallow: /privacidad.html
+
+# Sitemap
+Sitemap: https://limpiezasvalles.com/sitemap.xml
