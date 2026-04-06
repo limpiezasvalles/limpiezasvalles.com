@@ -25,7 +25,8 @@
       "Bash(convert /home/hector/vs_web/assets/favicon-src.jpg -resize 180x180 /home/hector/vs_web/assets/apple-touch-icon.png)",
       "Bash(convert /home/hector/vs_web/assets/favicon-32.png /home/hector/vs_web/favicon.ico)",
       "Bash(sort -k5 -h)",
-      "Bash(ls /home/hector/vs_web/images/terraza* /home/hector/vs_web/images/portal* /home/hector/vs_web/images/parking-* /home/hector/vs_web/images/cristales-plataforma* /home/hector/vs_web/images/cristales-altura* /home/hector/vs_web/images/limpieza-zonas*)"
+      "Bash(ls /home/hector/vs_web/images/terraza* /home/hector/vs_web/images/portal* /home/hector/vs_web/images/parking-* /home/hector/vs_web/images/cristales-plataforma* /home/hector/vs_web/images/cristales-altura* /home/hector/vs_web/images/limpieza-zonas*)",
+      "Bash(grep -rn \"Cerdanyola\\\\|Rubí\\\\|Sant Cugat\" /home/hector/vs_web/*.html)"
     ]
   }
 }

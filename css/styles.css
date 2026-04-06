@@ -1334,10 +1334,14 @@ strong { color: var(--color-text); font-weight: 600; }
 
   .hero {
     min-height: 100svh;
+    padding-bottom: calc(var(--space-8) + 56px); /* room for scroll indicator */
   }
   .hero__actions {
     flex-direction: column;
     align-items: flex-start;
+  }
+  .hero__scroll {
+    display: none; /* hidden on mobile — buttons already push content down */
   }
 
   .section { padding-block: var(--space-16); }
