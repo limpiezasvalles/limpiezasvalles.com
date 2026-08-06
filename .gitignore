@@ -5,7 +5,13 @@ SEO_AUDITORIA.md
 # === CARPETA MEDIA (fotos sin procesar + archivos ajenos) ===
 media/
 
-# === IMÁGENES SIN USAR / DESCARTADAS ===
+# === IMÁGENES ANTIGUAS ARCHIVADAS (sustituidas en agosto de 2026) ===
+_archivo-imagenes/
+
+# === IMÁGENES NUEVAS SIN PROCESAR (PNG originales del generador) ===
+nuevas/
+
+# === IMÁGENES SIN USAR / DESCARTADAS (ya movidas a _archivo-imagenes/) ===
 images/aspirado.jpg
 images/untitled.png
 images/cristal 2.png
